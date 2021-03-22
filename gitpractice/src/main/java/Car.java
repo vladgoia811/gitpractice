@@ -1,7 +1,7 @@
-public class Car<T>
+public class Car<B>//changed from T to B
 {
-    T brand;
-    public T getBrand(){
+    B brand;
+    public B getBrand(){
         return brand;
     }
 }
